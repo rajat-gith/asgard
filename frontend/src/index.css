@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.CardComponent{
+  display: flex;
+  margin:10px;
+  background: #6200EE;
+}
+.CardComponent_Title p{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: dashed;
+  color: white;
+
+}
+
+.CardComponent_Title {
+  padding:10px
+}
+
+.link{
+  text-decoration: none;
+}
+.HomeScreen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.HomeScreen_Cards{
+  justify-content: center;
+  display: flex;
+
+}
+
+.HomeScreen_Title{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  background:black;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.HomeScreen_Title p{
+  color: aqua;
+}
+.pageDesc_main_content{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.desc_preview{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CultureScreen, .GeographyScreen,.HistoryScreen,.LanguageScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img_banner {
+  display: flex;
+  justify-content: center;
+  padding: 10px; 
+}
+.img_banner img{
+  width: 50%;  
+}
+
+
+
+
+@media only screen and (max-width:480px){
+  .HomeScreen_Cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .CultureScreen, .GeographyScreen,.HistoryScreen,.LanguageScreen {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+  }
+  .img_banner img{
+    width: 90%;  
+  }
+  .desc_preview{
+    width: 90%;
+  }
+}
