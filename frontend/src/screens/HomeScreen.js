@@ -33,6 +33,7 @@ function HomeScreen() {
           </NavLink>
         </div>
       </div>
+      <p>© Rajat Kumar Nayak</p>
     </div>
   );
 }

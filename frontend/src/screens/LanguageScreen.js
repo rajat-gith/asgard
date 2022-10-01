@@ -17,6 +17,9 @@ function LanguageScreen() {
 
   return (
     <div className="LanguageScreen">
+      <div className="title">
+        <p>Language Page</p>
+      </div>
       <div className="img_banner">
         <img src="http://localhost:8000/images/lang.jpg" alt="" />
       </div>

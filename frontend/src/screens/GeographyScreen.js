@@ -17,8 +17,12 @@ function GeographyScreen() {
 
   return (
     <div className="GeographyScreen">
+      <div className="title">
+        <p>Geography Page</p>
+      </div>
+
       <div className="img_banner">
-       <img src="http://localhost:8000/images/geo.jpg" alt="" />
+        <img src="http://localhost:8000/images/geo.jpg" alt="" />
       </div>
       {desc && <PageDescription descriptions={desc} />}
     </div>

@@ -19,6 +19,9 @@ function CultureScreen() {
   }, []);
   return (
     <div className="CultureScreen">
+      <div className="title">
+        <p>Culture Page</p>
+      </div>
       <div className="img_banner">
         <img src="http://localhost:8000/images/culture.jpg" alt="" />
       </div>

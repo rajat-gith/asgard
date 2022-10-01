@@ -17,6 +17,9 @@ function HistoryScreen() {
 
   return (
     <div className="HistoryScreen">
+      <div className="title">
+        <h2>History Page</h2>
+      </div>
       <div className="img_banner">
         <img src="http://localhost:8000/images/history.jpg" alt="" />
       </div>

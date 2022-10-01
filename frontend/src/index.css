@@ -7,7 +7,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+*{
+  background: #FDEEDC;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -16,31 +18,64 @@ code {
 .CardComponent{
   display: flex;
   margin:10px;
-  background: #6200EE;
+  background-color: #FFD8A9;
+
+  
 }
 .CardComponent_Title p{
+  display: flex;
   font-family: 'Poppins', sans-serif;
   text-decoration: dashed;
-  color: white;
+  color: #202020;
+  text-align: center;
 
 }
 
 .CardComponent_Title {
-  padding:10px
+  padding:10px;
+  background-color: #FFD8A9;
+
+  
 }
+.CardComponent_Title p{
+  background-color: #F1A661;
+  padding: 10px;
+  border: 1px solid #F1A661;
+  border-radius: 5px;
+}
+
 
 .link{
   text-decoration: none;
 }
 .HomeScreen{
   display: flex;
+  height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  
+  /* justify-content: center; */
+}
+.HomeScreen p{
+  text-align: center;
+  align-items: baseline;
 }
 
 .HomeScreen_Cards{
-  justify-content: center;
   display: flex;
+  
+  flex-direction: row;
+  align-items: stretch;
+  /* background: #E38B29; */
+  
+}
+.card{
+  flex: 1;
+  width: 50%;
+  box-shadow: 1px 1px 5px 1px black ;
+  margin: 5px;
+  background-color: #FFD8A9;
+   
+
 
 }
 
@@ -48,12 +83,10 @@ code {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   margin: 10px;
-  background:black;
-  border: 2px solid black;
   border-radius: 10px;
 }
 .HomeScreen_Title p{
-  color: aqua;
+  color: black;
 }
 .pageDesc_main_content{
   display: flex;
@@ -65,6 +98,20 @@ code {
   width: 50%;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 1px 1px 5px 1px ;
+}
+
+.desc_preview p {
+  font-family: 'Poppins',sans-serif;
+  padding: 10px;
+}
+.Backbutton{
+  display: flex;
+  justify-content: center;
+}
+.Backbutton button{
+  margin: 10px;
+  font-family: 'Poppins',sans-serif;
 }
 
 .CultureScreen, .GeographyScreen,.HistoryScreen,.LanguageScreen {
@@ -80,7 +127,9 @@ code {
 .img_banner img{
   width: 50%;  
 }
-
+.title{
+  text-align: center;
+}
 
 
 
@@ -89,8 +138,12 @@ code {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
-
+  .card{
+    flex: 1;
+    width: 90%;
+  }
   .CultureScreen, .GeographyScreen,.HistoryScreen,.LanguageScreen {
     display: flex;
     flex-direction: column;
